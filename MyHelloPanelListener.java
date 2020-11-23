@@ -18,9 +18,9 @@ public class MyHelloPanelListener extends JPanel implements MouseListener, Mouse
         ml.setSize(100, 20);
         this.add(ml);
 
+        this.addKeyListener(this);
         this.addMouseListener(this);
         this.addMouseMotionListener(this);
-        this.addKeyListener(this);
     }
 
     public void mouseEntered(MouseEvent e)
@@ -54,18 +54,11 @@ public class MyHelloPanelListener extends JPanel implements MouseListener, Mouse
             break;
         }
     }
-
     public void keyReleased(KeyEvent e){}
-
     public void keyTyped(KeyEvent e){}
-
     public void mouseMoved(MouseEvent e){}
-
     public void mouseDragged(MouseEvent e){}
-
     public void mouseReleased(MouseEvent e){}
-
     public void mousePressed(MouseEvent e){}
-
     public void mouseClicked(MouseEvent e){}
 }
