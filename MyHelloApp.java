@@ -9,6 +9,6 @@ public class MyHelloApp
 {
     public static void main(String[] args)
     {
-        
+        MyHelloFrame mhf = new MyHelloFrame();
     }
 }
